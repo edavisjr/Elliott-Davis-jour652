@@ -5,6 +5,7 @@ body {
   font-family: 'Open Sans', arial, sans-serif;
 }
 
+/* container for the page */
 #container {
   width: 100%
   max-width: 1200px;
@@ -66,6 +67,7 @@ body {
   margin: 2px 0px 0px 0px;
 }
 
+/* mission statement */
 .description {
   margin: 10px 0px 10px 0px;
 }
@@ -75,6 +77,7 @@ li {
   font-size:1em;
 }
 
+/* contact info css */
 .menu {
   margin: 0;
   padding: 0;
@@ -85,14 +88,17 @@ li {
   display: inline;
 }
 
+/*education css*/
 #degrees {
   margin: 5px 0px 0px 0px;
 }
 
+/* skills css*/
 #do {
   margin: 5px 0px 0px 0px;
 }
 
+/* mission statement css*/
 .top {
   width: 60%;
   min-width: 300px;
