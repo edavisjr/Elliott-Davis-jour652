@@ -1,11 +1,9 @@
 /* styles for my resume */
 
-/* default styling */
 body {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Niramit', sans-serif;
 }
 
-/* container for the page */
 #container {
   width: 100%
   max-width: 1200px;
@@ -13,7 +11,62 @@ body {
   padding-bottom: 50px;
 }
 
-/* name banner */
+.display4 {
+  width: auto;
+  margin: 0 auto;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  font-size: 1.5em;
+  padding-right: 10px;
+}
+
+#skills li {
+  font-size: 1em;
+}
+
+.sectiontitle {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2121ce;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.col-md-6 {
+  border-style: dotted;
+  border-color: #35d710;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.col-md-12 {
+  border-style: dotted;
+  border-color: #35d710;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* default styling
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+container for the page
+#container {
+  width: 100%
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+
 #name {
   font-size:3em;
   color: #33485e;
@@ -25,7 +78,7 @@ body {
   margin: 0 auto;
 }
 
-/* my title */
+/* my title
 #title {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -35,7 +88,7 @@ body {
   margin: 20px 0px 0px 0px;
 }
 
-/* section titles */
+/* section titles
 .sectionheader {
   font-size:1.5em;
   text-transform: uppercase;
@@ -47,19 +100,19 @@ body {
   min-width: 300px;
 }
 
-/*job titles*/
+/*job titles
 .jobtitle {
   font-size:1.5em;
   font-weight:600;
 }
 
-/* organization names */
+/* organization names
 .organization {
   font-size:1.25em;
   font-weight:400;
 }
 
-/* job dates */
+/* job dates
 .date {
   font-size:1em;
   font-weight:400;
@@ -67,17 +120,17 @@ body {
   margin: 2px 0px 0px 0px;
 }
 
-/* mission statement */
+/* mission statement
 .description {
   margin: 10px 0px 10px 0px;
 }
 
-/* contact info, skills, education lists */
+/* contact info, skills, education lists
 li {
   font-size:1em;
 }
 
-/* contact info css */
+/* contact info css
 .menu {
   margin: 0;
   padding: 0;
@@ -88,17 +141,17 @@ li {
   display: inline;
 }
 
-/*education css*/
+/*education css
 #degrees {
   margin: 5px 0px 0px 0px;
 }
 
-/* skills css*/
+/* skills css
 #do {
   margin: 5px 0px 0px 0px;
 }
 
-/* mission statement css*/
+/* mission statement css
 .top {
   width: 60%;
   min-width: 300px;
