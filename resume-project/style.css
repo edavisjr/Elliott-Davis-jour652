@@ -1,5 +1,6 @@
 /* styles for my resume */
 
+/* default styles */
 body {
   font-family: 'Niramit', sans-serif;
 }
@@ -11,11 +12,19 @@ body {
   padding-bottom: 50px;
 }
 
-.display4 {
+.jumbotron {
+  background-color: white;
+  border-bottom: solid;
+  border-color: #35d710;
+}
+
+/* logo/banner */
+.banner {
   width: auto;
   margin: 0 auto;
 }
 
+/* contact information */
 .menu {
   text-align: center;
 }
@@ -26,10 +35,17 @@ body {
   padding-right: 10px;
 }
 
-#skills li {
-  font-size: 1em;
+/* skill styling */
+#skills {
+  text-align: center;
 }
 
+#skills li {
+  font-size: 1.5em;
+  list-style: none;
+}
+
+/* section headers */
 .sectiontitle {
   font-size: 2em;
   font-weight: bold;
@@ -39,18 +55,26 @@ body {
   text-align: center;
 }
 
+/* columns for jobs and education */
 .col-md-6 {
-  border-style: dotted;
+  border-style: dashed;
   border-color: #35d710;
   padding: 10px;
   margin-bottom: 15px;
 }
 
+/* column for skills and NESN job */
 .col-md-12 {
-  border-style: dotted;
+  border-style: dashed;
   border-color: #35d710;
   padding: 10px;
   margin-bottom: 15px;
+}
+
+#footer {
+  text-align: center;
+  font-style: italic;
+  padding: 15px;
 }
 
 /* default styling

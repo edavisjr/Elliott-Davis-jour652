@@ -14,10 +14,15 @@
   <!-- Google Font -->
  <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
 
+ <!-- Font Awesome -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 </head>
 
  <body>
+<!-- I built this myself! !-->
 
+<!-- Navbar -->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,37 +31,38 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Elliott Davis<span class="sr-only">(current)</span></a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#scroll-to-skills">Skills</a>
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
+          <a class="nav-link" href="#footer">Education</a>
         </li>
       </ul>
     </div>
    </nav>
 
+<!-- Jumbotron content -->
 
 <div class="jumbotron">
- <h1 class="display-4"><img src="elliott-davis-banner-new.png" width=80%><img src="elliott-davis-photo.jpg" width=20%></h1>
+ <h1 class="banner"><img src="elliott-davis-banner-new.png" width=100%>
+ <img src="elliott-davis-photo.jpg" width="20%" class="mx-auto d-block"></h1>
  <ul class="menu">
    <li><a href="mailto:elliott.m.davis@gmail.com">Email</a></li>
    <li><a href="https://www.linkedin.com/in/elliott-davis-94702b42/">LinkedIn</a></li>
    <li><a href="https://twitter.com/ElDavis_Jr">Twitter</a></li>
    <li><a href="https://github.com/edavisjr">Github</a></li>
  </ul>
- <p class="lead">I am a graduate student at the University of Maryland seeking a multi-platform journalism master's degree at the Merrill College of Journalism. I have over five years of professional writing experience and have been published at The Boston Globe Magazine, Greenbelt News Review, Hyattsville Life & Times and The Tufts Daily. I am passionate about writing, researching and asking the write questions. My reporting interests include sports, local news and urban affairs.</p>
+ <p class="lead">I am a graduate student at the University of Maryland seeking a multi-platform journalism master's degree at the Philip Merrill College of Journalism. I have over five years of professional writing experience and have been published at The Boston Globe Magazine, Greenbelt News Review, Hyattsville Life & Times and The Tufts Daily. I am passionate about writing, researching and asking the write questions. My reporting interests include sports, local news and urban affairs.</p>
 </div>
 
+<!-- Skills section -->
 
 <div class="container">
+  <div id="scroll-to-skills"></div>
     <div class="sectiontitle">Skills</div>
         <div class="row">
 
@@ -73,6 +79,8 @@
 
                 <li>Analyzing data in Excel</li>
 
+                <li>Coding in HTML, CSS and Bootstrap</li>
+
                 <li>Photo editing in Adobe Photoshop</li>
 
                 <li>Public speaking</li>
@@ -83,15 +91,17 @@
         </div>
       </div>
 
+<!-- Experience section -->
+
+    <div id="experience"></div>
     <div class="sectiontitle">Experience</div>
         <div class="row">
-
                 <div class="col-md-6">
                         <h3>Marketing Coordinator</h3>
                         <h4>Morven Park</h4>
                         <h5>May 2017 - July 2018</h5>
                         <p>I coordinated internal and external communications for this nonprofit historic park. I wrote press releases and newsletters, edited and distributed blog posts and developed other marketing materials such as advertisements and flyers. I also managed Morven Park's social media profiles on Facebook, Instagram and Twitter.</p>
-                </div>
+              </div>
 
                 <div class="col-md-6">
                       <h3>Digital Content Specialist</h3>
@@ -145,24 +155,32 @@
               </div>
             </div>
 
+<!-- Education section -->
+
           <div class="sectiontitle">Education</div>
                   <div class="row">
 
                       <div class="col-md-6">
-                        <h4>University of Maryland<br>Merrill College of Journalism</h4>
+                        <h4>University of Maryland<br>Philip Merrill College of Journalism</h4>
                         <h5>Master of Journalism, Multiplatform Journalism</h5>
                         <h6>Expected 2019</h6>
                       </div>
 
                       <div class="col-md-6">
                           <h4>Tufts University</h4>
-                          <h5>Bachelor of Arts in Political Science, Minor in Communications</h5>
+                          <h5>Bachelor of Arts in Political Science,<br>Minor in Communications</h5>
                           <h6>May 2013</h6>
                       </div>
                   </div>
 
     </div>
 </div>
+
+<!-- Footer -->
+
+  <div id="footer">
+    <p><i class="fa fa-copyright" aria-hidden="true"></i> 2018, Elliott Davis Jr.</p>
+  </div>
 
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
