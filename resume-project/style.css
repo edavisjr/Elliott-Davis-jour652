@@ -32,7 +32,7 @@ body {
 .menu li {
   display: inline;
   font-size: 1.5em;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 /* skill styling */
@@ -63,7 +63,13 @@ body {
   margin-bottom: 15px;
 }
 
-/* column for skills and NESN job */
+/*job titles */
+
+h3 {
+  font-weight: bold;
+}
+
+/* columns for skills and NESN job */
 .col-md-12 {
   border-style: dashed;
   border-color: #35d710;
@@ -75,110 +81,4 @@ body {
   text-align: center;
   font-style: italic;
   padding: 15px;
-}
-
-/* default styling
-body {
-  font-family: 'Open Sans', arial, sans-serif;
-}
-
-container for the page
-#container {
-  width: 100%
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
-
-
-#name {
-  font-size:3em;
-  color: #33485e;
-  text-transform: uppercase;
-  text-align: center;
-  border-bottom: 1px solid #33486e;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-}
-
-/* my title
-#title {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  color: #33485e;
-  font-weight: 600;
-  text-align: center;
-  margin: 20px 0px 0px 0px;
-}
-
-/* section titles
-.sectionheader {
-  font-size:1.5em;
-  text-transform: uppercase;
-  background-color: #33485e;
-  color: white;
-  font-weight: 400;
-  margin-top: 20px 0px 10px 0px;
-  width: 70%;
-  min-width: 300px;
-}
-
-/*job titles
-.jobtitle {
-  font-size:1.5em;
-  font-weight:600;
-}
-
-/* organization names
-.organization {
-  font-size:1.25em;
-  font-weight:400;
-}
-
-/* job dates
-.date {
-  font-size:1em;
-  font-weight:400;
-  font-style:italic;
-  margin: 2px 0px 0px 0px;
-}
-
-/* mission statement
-.description {
-  margin: 10px 0px 10px 0px;
-}
-
-/* contact info, skills, education lists
-li {
-  font-size:1em;
-}
-
-/* contact info css
-.menu {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.menu li {
-  display: inline;
-}
-
-/*education css
-#degrees {
-  margin: 5px 0px 0px 0px;
-}
-
-/* skills css
-#do {
-  margin: 5px 0px 0px 0px;
-}
-
-/* mission statement css
-.top {
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 30px;
 }
