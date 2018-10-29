@@ -15,7 +15,8 @@ h1 {
 
 .chapterhead {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
+  padding-bottom: 10px;
 }
 
 p {
@@ -29,6 +30,8 @@ p {
 }
 
 #footer {
+  color: white;
   text-align: center;
   font-size: 14px;
+  background-color: black;
 }
