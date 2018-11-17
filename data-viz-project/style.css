@@ -1,0 +1,37 @@
+#container {
+max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#byline {
+  font-style: italic;
+  text-align: center;
+}
+
+.chapterhead {
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+p {
+
+}
+
+.imagecaption {
+  font-style: italic;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+#footer {
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  background-color: #000000;
+}
