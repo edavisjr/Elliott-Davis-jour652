@@ -1,0 +1,124 @@
+#container {
+max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+}
+
+a:link {
+  color: #e0162b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0052a5
+}
+
+a:visited {
+  color: #999;
+}
+
+.bg-dark {
+ background:#000 !important;
+}
+
+ul.navbar-nav {
+ margin-left:50%;
+}
+
+.navbar {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 1.25em;
+}
+
+.stars {
+  width: 15px;
+  padding-right:5px;
+}
+
+.gun-image {
+  width: 100%;
+  max-width: 900px;
+}
+
+.hero-image {
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+}
+
+.headline {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+}
+
+.subhead {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.stars-top {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.intro-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  max-width: 800px;
+  display: block;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+}
+
+.chaptertitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  width: 100%;
+}
+
+p {
+ font-family: 'PT Serif', sans-serif;
+ color: #000000;
+ font-size: 1em;
+}
+
+.red {
+ color: #e0162b;
+}
+
+.blue {
+ color: #0052a5;
+}
+
+.imagecaption {
+  font-style: italic;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+#footer {
+  color: #ffffff;
+  height: 100px;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-size: 14px;
+  background-color: #000000;
+  padding: 25px;
+}
