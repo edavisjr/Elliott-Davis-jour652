@@ -40,11 +40,7 @@ ul.navbar-nav {
   font-size: 1.25em;
 }
 
-/* Top and reusable stars images styling */
-.stars {
-  width: 15px;
-  padding-right:5px;
-}
+/* Top image styling */
 
 .hero-image {
   width: 100%;
@@ -68,12 +64,6 @@ body {
   font-weight: 700;
   font-size: 1.25em;
   text-align: center;
-}
-
-.stars-top {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .intro-text {
@@ -104,12 +94,18 @@ p {
  line-height: 180%;
 }
 
+blockquote {
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
 /* Reusable image and caption styling */
 .stack-image {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .caption {
@@ -152,14 +148,16 @@ p {
   font-weight: 700;
 }
 
-/* Red and blue colors for text */
-.red {
- color: #e0162b;
+.map-header {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
 }
 
-.blue {
- color: #0052a5;
-}
 
 /* Footer styling */
 #footer {
