@@ -62,7 +62,7 @@ body {
 .subhead {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 1.25em;
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -95,12 +95,17 @@ p {
 }
 
 blockquote {
-  margin: 0 auto;
   font-size: 1.5em;
+  font-weight: bold;
   font-style: italic;
   border-top: 1px solid #cdcdcd;
   border-bottom: 1px solid #cdcdcd;
-  padding: 5px;
+  padding: 15px;
+}
+
+#pullquote-source {
+  font-weight: normal;
+  font-size: .75em;
 }
 
 /* Reusable image and caption styling */
