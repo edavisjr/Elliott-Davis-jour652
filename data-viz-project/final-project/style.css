@@ -55,15 +55,9 @@ body {
 .headline {
   font-family: 'Proza Libre', sans-serif;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
-}
-
-.subhead {
-  font-family: 'Proza Libre', sans-serif;
-  font-weight: 700;
-  font-size: 1.5em;
-  text-align: center;
+  padding-top: 20px;
 }
 
 .intro-text {
@@ -102,6 +96,7 @@ blockquote {
   font-size: 1.5em;
   font-weight: bold;
   font-style: italic;
+  text-align: right;
   border-top: 1px solid #2121ce;
   border-bottom: 1px solid #2121ce;
   padding: 15px;
